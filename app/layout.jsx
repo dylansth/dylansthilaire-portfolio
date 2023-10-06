@@ -12,7 +12,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html Lang="en">
-      <body className="bg-blue-200">
+      <body className="bg-blue-800">
       <Particles/>
       <main className="app">
         <TopNav/>

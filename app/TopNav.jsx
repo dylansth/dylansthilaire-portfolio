@@ -2,10 +2,7 @@ import Link from 'next/link'
 
 const TopNav = () => {
     return (
-        <nav class='flex justify-center gap-6'>
-            <h1>
-                TopNav
-            </h1>
+        <nav class='z-50 flex justify-center gap-6'>
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/projects">Projects</Link>
