@@ -13,7 +13,6 @@ const ParticlesBg = () => {
     await console.log(container);
   }, []);
   return (
-    <div className="w-full h-full">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -96,7 +95,6 @@ const ParticlesBg = () => {
           detectRetina: true,
         }}
       />
-    </div>
   );
 };
 

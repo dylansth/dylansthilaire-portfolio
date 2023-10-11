@@ -1,6 +1,6 @@
 import '@styles/globals.css'
 
-import Particles from './ParticlesBg.jsx'
+import { Inter } from 'next/font/google';
 
 import TopNav from './TopNav.jsx'
 
@@ -9,11 +9,15 @@ export const metadata = {
   description: 'Software Engineering and Web Developer Portfolio'
 }
 
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 const RootLayout = ({ children }) => {
   return (
-    <html Lang="en">
+    <html Lang="en" className={inter.className}>
       <body className="bg-blue-800">
-      <Particles/>
       <main className="app">
         <TopNav/>
         {children}
